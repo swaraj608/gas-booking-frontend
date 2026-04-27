@@ -1,6 +1,6 @@
-"use client"; // Important for Next.js interactive components
+"use client"; 
 import React, { useState } from 'react';
-import { BookingData } from '@/types/booking';
+import { BookingData } from '../types/booking';
 
 const BookingForm: React.FC = () => {
   const [formData, setFormData] = useState<BookingData>({
